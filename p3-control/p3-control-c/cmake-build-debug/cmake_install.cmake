@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sebastian/Documents/Privater Stuff/Flying Cars/03 Control/00 Project/FCND-Controls-CPP-master
+# Install script for directory: /Users/sebastian/Documents/Privater Stuff/Flying Cars/00 Projects/p3-control/p3-control-c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/sebastian/Documents/Privater Stuff/Flying Cars/03 Control/00 Project/FCND-Controls-CPP-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/sebastian/Documents/Privater Stuff/Flying Cars/00 Projects/p3-control/p3-control-c/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

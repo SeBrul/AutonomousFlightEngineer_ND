@@ -1,6 +1,6 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/sebastian/Documents/Privater Stuff/Flying Cars/03 Control/00 Project/FCND-Controls-CPP-master"
--- The C compiler identification is AppleClang 10.0.0.10001145
--- The CXX compiler identification is AppleClang 10.0.0.10001145
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/sebastian/Documents/Privater Stuff/Flying Cars/00 Projects/p3-control/p3-control-c"
+-- The C compiler identification is AppleClang 10.0.1.10010046
+-- The CXX compiler identification is AppleClang 10.0.1.10010046
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -17,4 +17,4 @@
 -- Found OpenGL: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/sebastian/Documents/Privater Stuff/Flying Cars/03 Control/00 Project/FCND-Controls-CPP-master/cmake-build-debug
+-- Build files have been written to: /Users/sebastian/Documents/Privater Stuff/Flying Cars/00 Projects/p3-control/p3-control-c/cmake-build-debug
