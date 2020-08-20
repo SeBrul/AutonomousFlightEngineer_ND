@@ -1,4 +1,4 @@
-![](/images/enroute.png?raw=false)
+<img src="/images/enroute.png" width="800">
 
 # Autonomous flight in an urban environment
 
@@ -6,7 +6,7 @@ Starting with a city map and the respective obstacle coordinates a configuration
 
 >The code is tested in the framework of the Udacity Flying Car Simulator as one part of the Nanodegree Programm Capstone Project **Motion Planning**. The other projects 
 
-![](/images/drone_starting.gif)
+<img src="/images/drone_starting.gif" width="600">
 ---
 
 ## Table of Contents
@@ -40,18 +40,17 @@ The other projects can be started with the same command, and it is just required
 ## Configuration Space
 With the help of the map of a city and the corresponding obstacle data, a configuration space is derived for the requested drone altitude. The configuration space is the base for all path planning performed later on an derived from a given set of information of the city Los Angeles.
 
-![](/images/map.png?raw=false)
-![](/images/grid_map_higher.png?raw=false)
-
+<img src="/images/map.png" width="500">
+<img src="/images/grid_map_higher.png" width="500">
 ---
 ## Path Planning
 With the help of the **medial axis** transform the image can be skeletonized in order to find possible paths on which the drone can travel. The advantage of this method is that it provides pathways with a local maximum distance between any obstacles and the drone. On the other side, those paths are not the most efficient when going from A to B and therefore not optimal.
 
-![](/images/medial-axis.png?raw=false)
+<img src="/images/medial-axis.png" width="500">
 
 Performing an **A^*** graph search on the paths from the **medial axis** transformed map (green) delivers a possible path for the drone to travel. Also, an **A^*** graph search performed directly onto the configuration map (red) achieves a more direct path towards the goal.
 
-![](/images/compare-medialaxis-wo.png?raw=false)
+<img src="/images/compare-medialaxis-wo.png" width="500">
 
 ---
 ## Ray Tracing
@@ -62,7 +61,7 @@ In order to remove unnecessary waypoints that lay on an already existing node, a
 ## Putting It Together
 In the motion planning script, all these methods are applied. First, two random coordinates are calculated, a start and a goal point. Then a path is calculated based on the **medial axis** transform and **A^* ** algorithm, the path is pruned down, and the coordinates are commanded to the drone one by one, as soon as the drone reaches the next point. 
 
-![](/images/drone_motion_planning_full.gif)
+<img src="/images/drone_motion_planning_full.gif" width="600">
 
 ---
 ## Further Projects
