@@ -11,10 +11,13 @@ Starting with a city map and the respective obstacle coordinates a configuration
 
 ## Table of Contents
 [Motion Planning](#motion-planning)
+
 - [Built With](#built-with)
 - [Configuration Space](#configuration-space)
 - [Path Planning](#path-planning)
 - [Ray Tracing](#ray-tracing)
+- [Putting It Together](#putting-it-together)
+
 [Further Projects](#further-projects)
 
 ---
